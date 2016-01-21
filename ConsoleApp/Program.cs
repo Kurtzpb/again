@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ConsoleApp
 {
@@ -44,7 +41,7 @@ namespace ConsoleApp
                     }
                 default:
                     {
-                        Console.WriteLine("Вы ввели не корректный оператор!");
+                        Console.WriteLine("Вы не ввели корректный оператор!");
                         break;
                     }
             }
